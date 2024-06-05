@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="277ac90b-5e98-4f18-932f-f92c413d11c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ME4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exemploMe/superpackage/Sub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exemploMe/superpackage/Super.java" afterDir="false" />
+    <list default="true" id="277ac90b-5e98-4f18-932f-f92c413d11c2" name="Changes" comment="College Activity">
+      <change afterPath="$PROJECT_DIR$/src/com/exemplo/animais/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exemplo/animais/Colorido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exemplo/animais/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exemplo/animais/Pesado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exemplo/animais/Porco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,16 +22,24 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Pedro Santos" />
+        <option value="Pedro Vinicius" />
+        <option value="Pedro Vinícius" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2hNbTfCkTofvFAocNwmNwZ87K1f" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,7 +48,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.JavaPolimorfismo.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.com.exemplo.animais.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -51,7 +58,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.JavaPolimorfismo">
+  <component name="RunManager" selected="Application.com.exemplo.animais.Main">
     <configuration name="JavaPolimorfismo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.com.exemploMe.app.JavaPolimorfismo" />
       <module name="ME4" />
@@ -72,12 +79,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.exemplo.animais.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exemplo.animais.Main" />
+      <module name="ME4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exemplo.animais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.exemplo.animais.Main" />
         <item itemvalue="Application.JavaPolimorfismo" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,6 +116,30 @@
       <option name="presentableId" value="Default" />
       <updated>1717437495600</updated>
     </task>
+    <task id="LOCAL-00001" summary="College Activity">
+      <option name="closed" value="true" />
+      <created>1717439009270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717439009270</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="College Activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="College Activity" />
   </component>
 </project>
